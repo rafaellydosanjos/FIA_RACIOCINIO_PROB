@@ -1,6 +1,6 @@
 # Trabalho Metodologias Ativas: Raciocínio Probabilístico
 
-**Disciplina:** Inteligência Artificial - Instituto de Computação (IComp) / UFAM  
+**Disciplina:** Fundamentos de Inteligência Artificial - Instituto de Computação (IComp) / UFAM  
 **Aluna:** Rafaelly Barreto Dos Anjos  
 **Professor:** Edjard Mota  
 **Data:** 11 de Outubro de 2026  

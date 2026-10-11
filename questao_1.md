@@ -9,6 +9,17 @@ As variáveis do problema são: `Str` (Condição da rua), `Flw` (Desgaste do vo
 * **Causas da Tensão (`V`):** A geração de tensão depende se o dínamo desliza ou não. As equações P(V|R,Str)=P(V|R) e P(V|R,Flw)=P(V|R) confirmam que `V` é independente de `Str` e `Flw` dado `R`. Aresta: `R` -> `V`.
 * **Causas da Luz (`Li`):** Para a luz ligar, é preciso haver tensão (`V`), a lâmpada estar em bom estado (`B`) e o cabo estar ok (`K`). Arestas: `V` -> `Li`, `B` -> `Li`, `K` -> `Li`.
 
+```
+Str         Flw           B           K  
+  \         /             |          /  
+   \       /              |         /  
+    v     v               v        v  
+       R                     Li  
+       |                     ^  
+       v                     |  
+       V --------------------+
+```
+
 ## (b) CPTs (Tabelas de Probabilidade Condicional) em Falta
 
 O enunciado fornece a tabela para as probabilidades de `Li` dadas as variáveis `V`, `B` e `K`. Para completar a rede bayesiana, faltam as seguintes CPTs:
